@@ -1,0 +1,10 @@
+/home/al/aplikasi-barang/src/main/java/muhamadalrifki/com/domain/user.java
+/home/al/aplikasi-barang/src/main/java/muhamadalrifki/com/App.java
+/home/al/aplikasi-barang/src/main/java/muhamadalrifki/com/controller/BarangController.java
+/home/al/aplikasi-barang/src/main/java/muhamadalrifki/com/service/BarangDao.java
+/home/al/aplikasi-barang/src/main/java/muhamadalrifki/com/service/UserDao.java
+/home/al/aplikasi-barang/src/main/java/muhamadalrifki/com/config/SecurityConfig.java
+/home/al/aplikasi-barang/src/main/java/muhamadalrifki/com/controller/userController.java
+/home/al/aplikasi-barang/src/main/java/muhamadalrifki/com/domain/permission.java
+/home/al/aplikasi-barang/src/main/java/muhamadalrifki/com/domain/Role.java
+/home/al/aplikasi-barang/src/main/java/muhamadalrifki/com/domain/Barang.java

@@ -1,0 +1,10 @@
+muhamadalrifki/com/domain/Role.class
+muhamadalrifki/com/service/UserDao.class
+muhamadalrifki/com/domain/Barang.class
+muhamadalrifki/com/App.class
+muhamadalrifki/com/controller/BarangController.class
+muhamadalrifki/com/controller/userController.class
+muhamadalrifki/com/service/BarangDao.class
+muhamadalrifki/com/domain/user.class
+muhamadalrifki/com/config/SecurityConfig.class
+muhamadalrifki/com/domain/permission.class

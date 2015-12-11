@@ -1,0 +1,39 @@
+<div class="card-panel">
+<h4 class="light">Data barang</h4>
+<div class="row">
+    <div class="col s12 m6">
+        <div class="row">
+            <div class="input-field col s12">
+                <input placeholder="nama" type="text" class="validate" ng-model="currentBarang.nama">
+            </div>
+            <div class="input-field col s12">
+                <input placeholder="kode" type="text" class="validate" ng-model="currentBarang.kode">
+            </div>
+            <div class="input-field col s12">
+                <button class="btn waves-effect waves-light" ng-click="simpanData(currentBarang)" style="width:270px;"><i class="material-icons left">airplay</i>Simpan</button>
+            </div>
+            <div class="input-field col s12">
+                <button ng-click="tampilkanData()" class="btn waves-effect waves-light" style="width:270px;"><i class="material-icons left">receipt</i>Tampilkan data</button>
+            </div>
+        </div>
+    </div>
+</div>
+<table class="striped centered responsive-table">
+        <thead>
+          <tr>
+              <th>nama</th>
+              <th>kode</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr ng-repeat="barang in dataServer">
+            <td>{{ barang.nama }}</td>
+            <td>{{ barang.kode }}</td>
+            <td>
+                <button class="btn waves-effect waves-light" ng-click="hapusData(barang.id)"><i class="material-icons left">delete</i>Hapus</button>
+                <button class="btn waves-effect waves-light" ng-click="editData(barang)"><i class="material-icons left">vpn_key</i>Edit</button>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+</div>
